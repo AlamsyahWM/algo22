@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="MSI 15"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 09:35:11 PM"/>
+        <attribute name="created" value="TVNJIDE1O01TSTsyMDIyLTA5LTI3OzA4OjAyOjE2IFBNOzE4ODU="/>
+        <attribute name="edited" value="TVNJIDE1O01TSTsyMDIyLTA5LTI3OzA5OjM1OjExIFBNOzE7MTk5NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <declare name="j" type="Integer" array="False" size=""/>
+            <while expression="i &lt; 5">
+                <for variable="i" start="1" end="5" direction="inc" step="1">
+                    <for variable="j" start="i" end="5" direction="inc" step="1">
+                        <output expression="&quot;*&quot;" newline="False"/>
+                    </for>
+                    <output expression="&quot;&quot;" newline="True"/>
+                </for>
+            </while>
+        </body>
+    </function>
+</flowgorithm>
